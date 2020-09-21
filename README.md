@@ -1,1 +1,4 @@
-# This web Page in UnderDevelopment and This is a Portfolio Website.
+# This web Page is in UnderDevelopment.
+# This is portfolio Website.
+
+# Thanks😊 for visiting.
