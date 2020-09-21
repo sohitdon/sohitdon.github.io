@@ -1,0 +1,140 @@
+*{
+    margin: 0 ; padding: 0; box-sizing: border-box;
+}
+
+
+/*          nav bar styling start here */
+nav {
+    width: 100%;
+    height: 50px;
+    background-color:hsla(120, 7%, 38%, 1);
+    position: fixed;
+    z-index: 5;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+#logo {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+ul{
+    line-height: 50px;
+    display: inline-block;
+    float: right;
+
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    color: ivory;
+}
+
+.hoversover:hover {
+    background-color: lightgoldenrodyellow;
+    color: red;
+}
+
+p {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/*              this is the end of nav bar  */
+
+
+
+/*             this is the part main body */
+
+.main {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(./img/pexels-wendy-wei-5041858.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 50px;
+    left: auto;
+    right: auto;
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+h1 {
+    color: rgb(31, 7, 246);
+}
+
+.ramu {
+    margin-top: 20rem ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: hsla(120, 7%, 38%, 0.9);
+}
+
+.shyamu {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+    text-align: center;
+    margin-bottom: 30%;
+    background-color: hsla(120, 50%, 80%, 0.5);
+}
+
+.parag {
+    color:rgb(255, 255, 255);
+    background-color: hsla(120, 7%, 38%, 0.9);
+
+
+}
+
+#view {
+    width: 80%;
+    margin: 20px auto;
+    background-color:hsla(120, 7%, 38%, 0.9);
+    text-align: center;
+}
+
+
+
+#gallery {
+    border: 3px solid;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 30rem;
+    height: 250px;
+    display: inline;
+    display: flex;
+
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    background-color:hsla(120, 7%, 38%, 0.9);
+
+}
+
+
+
+
